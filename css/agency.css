@@ -331,6 +331,8 @@ section h3.section-subheading {
   height: 20px;
   font-size: 20px;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   top: 50%;
   margin-top: -12px;
   color: white;
@@ -552,6 +554,19 @@ section h3.section-subheading {
 }
 aside.clients img {
   margin: 50px auto;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 section#contact {
   background-color: #222222;
