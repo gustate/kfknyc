@@ -555,6 +555,13 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
+#team {
+  color: #fff;
+  background-color: #444;
+}
+#team .text-muted {
+  color: #aaa;
+}
 .team-member {
   text-align: center;
   margin-bottom: 50px;
