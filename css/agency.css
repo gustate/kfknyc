@@ -322,6 +322,10 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+#portfolio .section-subheading {
+  margin-bottom: 50px;
+}
+
 #portfolio .this-month {
   margin-bottom: 25px;
 }
