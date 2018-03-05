@@ -99,7 +99,29 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="intro-heading">Kung Fu Komedy</div>
                         <div class="intro-date">March 21, 7pm @ New York Comedy Club</div>
-                        <a href="https://www.eventbrite.com/e/comedy-road-trip-a-stand-up-storytelling-travel-show-tickets-43863051568?aff=kfknycwebsite" class="page-scroll btn btn-xl">Get tickets</a>
+
+                        <!-- EVENTBRITE BUTTON -->
+                        <!-- Noscript content for added SEO -->
+                        <noscript><a href="https://www.eventbrite.com/e/comedy-road-trip-a-stand-up-storytelling-travel-show-tickets-43863051568" rel="noopener noreferrer" target="_blank"></noscript>
+                        <!-- You can customize this button any way you like -->
+                        <button class="btn btn-xl" id="eventbrite-widget-modal-trigger-43863051568" type="button">Get Tickets</button>
+                        <noscript></a>Buy Tickets on Eventbrite</noscript>
+
+                        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                        <script type="text/javascript">
+                            var exampleCallback = function() {
+                                console.log('Order complete!');
+                            };
+
+                            window.EBWidgets.createWidget({
+                                widgetType: 'checkout',
+                                eventId: '43863051568',
+                                modal: true,
+                                modalTriggerElementId: 'eventbrite-widget-modal-trigger-43863051568',
+                                onOrderComplete: exampleCallback
+                            });
+                        </script>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="intro-lead-in">New York's home for international comedy</div>
