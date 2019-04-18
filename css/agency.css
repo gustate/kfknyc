@@ -226,10 +226,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/kfk-road-trip-header-bg.jpg');
+  background-image: url('../img/comedy-road-trip-header-bg-dark.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 80% center;
+  background-position: 25% center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -244,24 +244,24 @@ header .intro-text {
 header .intro-text .intro-date {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 20px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 15px;
   color: #fff;
 }
 header a {
@@ -279,7 +279,7 @@ header .btn-xl {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 40px;
     margin-bottom: 50px;
   }
   header .intro-text .intro-lead-in {
