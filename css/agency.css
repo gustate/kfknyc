@@ -325,6 +325,12 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+@media (max-width: 991px) {
+  #description .video {
+    margin-top: 30px;
+  }
+}
+
 #portfolio .section-subheading {
   margin-bottom: 50px;
 }
